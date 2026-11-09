@@ -8,6 +8,8 @@ go back to the one you had.
 
 No text, no buttons: just the thumbnails.
 
+![wallpicker open over the desktop](docs/screenshot.webp)
+
 ## Features
 
 - Live preview on the real desktop while you scroll, debounced so fast
