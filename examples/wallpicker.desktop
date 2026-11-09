@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Wallpicker
+Comment=Scroll through your wallpapers and preview them live
+Exec=wallpicker
+Icon=preferences-desktop-wallpaper
+Terminal=false
+Categories=Utility;Settings;DesktopSettings;
+Keywords=wallpaper;background;

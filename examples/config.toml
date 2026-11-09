@@ -1,0 +1,39 @@
+[general]
+directory = "~/Pictures/Wallpapers"
+recursive = true
+live_preview = true
+preview_delay_ms = 220
+monitor = "focused"
+
+[commands]
+preview = ["awww", "img", "{path}", "--transition-type", "fade", "--transition-duration", "0.35", "--transition-fps", "60"]
+apply = ["awww", "img", "{path}", "--transition-type", "grow", "--transition-duration", "1"]
+
+[layout]
+position = "bottom"
+margin = 120
+visible = 5
+thumb_width = 288
+thumb_height = 162
+spacing = 8
+item_padding = 6
+
+[appearance]
+background = "#0d1117b3"
+border = "#30363d"
+border_width = 2
+radius = 16
+padding = 16
+selection = "#1f6feb73"
+item_radius = 10
+thumb_radius = 8
+dim = 0.55
+placeholder = "#161b22"
+
+[keys]
+next = ["Right", "Down", "l", "j", "Tab"]
+previous = ["Left", "Up", "h", "k", "ISO_Left_Tab"]
+first = ["Home"]
+last = ["End"]
+apply = ["Return", "KP_Enter", "space"]
+cancel = ["Escape", "q"]
